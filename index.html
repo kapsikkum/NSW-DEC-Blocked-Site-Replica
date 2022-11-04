@@ -1,0 +1,110 @@
+<!-- 
+  @Author: kapsikkum
+  @Date:   2022-11-04 19:32:31
+  @Last Modified by:   kapsikkum
+  @Last Modified time: 2022-11-05 00:27:44
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web Site Blocked</title>
+    <style>
+      @font-face {
+        font-family: Arthura-Regular;
+        src: url(Arthura-Regular.ttf);
+      }
+
+      @font-face {
+        font-family: DejaVuSans-Bold;
+        src: url(DejaVuSans-Bold.ttf);
+        font-weight: bold;
+      }
+
+      * {
+        margin: 0;
+      }
+
+      body {
+        background-color: white;
+        height: 100vh;
+      }
+
+      html {
+        background-color: white;
+      }
+
+      header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        padding-top: 5px;
+      }
+
+      h1{
+        color: #2977FB;
+        font-family: DejaVuSans-Bold;
+        font-size: 60px;
+      }
+
+      footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        border-top: 1px solid black;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+      }
+
+      main {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-top: 50px;
+        max-width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      p {
+        margin-bottom: 50px;
+        font-size: 18px;
+        font-family: Arthura-Regular;
+        color: black;
+      }
+
+
+      img.footer {
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+
+      img.arrow {
+        margin-left: 0;
+      }
+  
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Blocked Site</h1>
+    </header>
+    <main>
+      <p>
+        The site is blocked. It has been classified in the category/ies Pihole blocklist;Ads and Telemetry
+      </p>
+      <p>
+        <img src="arrow.png" class="arrow"> To leave this page please use the <a href="">Back</a> button or enter a new URL into the browser
+      </p>
+      <p>
+        If your teacher believes this site is required for educational purposes they can request the site to be unblocked.
+      </p>
+    </main>
+    <footer>
+      <img src="dec_med.png" alt="DEC" class="footer">
+    </footer>
+  </body>
+</html>
